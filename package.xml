@@ -3,7 +3,7 @@
   href="http://download.ros.org/schema/package_format2.xsd"
   schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
-  <name>laser_geometry</name>
+  <name>laser_geometry_2</name>
   <version>2.2.0</version>
   <description>
     This package contains a class for converting from a 2D laser scan as defined by

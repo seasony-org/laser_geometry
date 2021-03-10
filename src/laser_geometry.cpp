@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "laser_geometry/laser_geometry.hpp"
+#include "laser_geometry_2/laser_geometry.hpp"
 
 #include <algorithm>
 #include <string>

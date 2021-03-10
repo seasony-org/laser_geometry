@@ -41,7 +41,7 @@
 #include "tf2/buffer_core.h"
 #include "sensor_msgs/msg/laser_scan.hpp"
 #include "sensor_msgs/msg/point_cloud2.hpp"
-#include "laser_geometry/visibility_control.hpp"
+#include "laser_geometry_2/visibility_control.hpp"
 
 namespace laser_geometry
 {
@@ -151,7 +151,7 @@ public:
    *   channel_option::Distance, channel_option::Timestamp.
    */
   LASER_GEOMETRY_PUBLIC
-  void transformLaserScanToPointCloud(
+  void transformLaserScanToPointCloudWork(
     const std::string & target_frame,
     const sensor_msgs::msg::LaserScan & scan_in,
     sensor_msgs::msg::PointCloud2 & cloud_out,
